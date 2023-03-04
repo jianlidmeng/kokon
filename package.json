@@ -1,0 +1,31 @@
+{
+  "name": "kokon",
+  "version": "0.0.2",
+  "description": "kokon 函数库",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/kokon.umd.cjs",
+  "module": "./dist/kokon.js",
+  "exports": {
+    ".": {
+      "import": "./dist/kokon.js",
+      "require": "./dist/kokon.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:jianlidmeng/kokon.git"
+  },
+  "author": "jianlidmeng",
+  "license": "GPL"
+}
